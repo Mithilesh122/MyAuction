@@ -1,0 +1,208 @@
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Bootstrap tweaks */
+.card-img-top {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.list-group-horizontal > .list-group-item {
+  border: none;
+}
+
+.modal-body > img {
+  width: 100%;
+}
+
+.card > .table {
+  margin-bottom: 0;
+}
+#title{
+  background-color: white;
+  color:#fff;
+  
+}
+
+.f{
+  text-align: center;
+  font-family:"Montserrat" ;
+}
+.body{
+  font-family:"Montserrat" ;
+}
+
+.h1{
+
+  font-family: "Montserrat-Black";
+  font-size:100px;
+  line-height: 1.5;
+  background-color: white;
+} 
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:1.5rem;
+  padding: "0px" "0px" "72px";
+}
+.nav-item{
+  padding: 0px 30px 0px 30px ;
+  font-family: "Montserrat";
+}
+
+
+.title-image{
+  transform: rotate(25deg);
+  width: 120%;
+  position: absolute;
+  z-index: 0;
+  left: 500px;
+  bottom: -250px;
+}
+#features{
+  padding-top: 50px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+i:hover{
+color: white;
+}
+.h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+
+}
+.pi{
+  color: grey;
+}
+
+
+#testimonials{
+  text-align: center;
+  background-color: white;
+}
+.teh{
+  font-family: Montserrat;
+  font-weight: bold;
+  color:white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dog-p{
+  width: 10%;
+  border-radius: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+#press{
+  text-align: center;
+  background-color:white ;
+  padding: 50px;
+  padding-bottom: 70px;
+}
+
+.press-Images{
+  width: 15%;
+}
+.carousel-indicators {
+  bottom:-100px;
+  margin-bottom:100px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}  
+
+#pricing{
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 100px;
+}
+
+h2{
+  font-weight: bolder;
+}
+h3{
+  font-weight: bolder;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+.hi{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+/* @media (max-width:1028px) {
+
+  .title-image{
+      position:static;
+      transform:rotate(0);
+  }
+  #title{
+      text-align: center;
+  }
+  
+} */
+
+
+#cta{
+  background-color:white;
+  text-align: center;
+  font-family: "Montserrat";
+  height: 400px;
+}
+
+
+
+
+.cta-h3{
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight:900;
+  color:white;
+}
+
+#footer
+{
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+i{
+  margin-top: 80px;
+}
+.button {
+  
+  
+  padding: 15px 32px;
+  text-align: center;
+  
+  display: inline-block;
+  
+  margin: 4px 2px;
+  
+}
+#testimonials {
+  margin: 100px;
+  background-image: url("https://cdn.theatlantic.com/thumbor/Kto-jp-IrA7TydSu5W5uB1FBDmA=/0x131:2555x1568/1952x1098/media/img/mt/2017/06/shutterstock_319985324/original.jpg");
+  background-size: cover;
+}
+#products{
+  background-color:#0d6efd ;
+  padding:100px;
+}
